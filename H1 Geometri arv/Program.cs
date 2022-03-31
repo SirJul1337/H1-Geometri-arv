@@ -7,17 +7,21 @@ namespace H1_Geometri_arv
     {
         static void Main(string[] args)
         {
+            //Assignment 
             Square square2 = new Square(20);
             Square square3 = new Square(30);
 
+            //Making list with name figures
             List<Figure> figures = new List<Figure>();
 
+            //Making the figures
             Square square1 = new Square(10);
             Rectangle rectangle1 = new Rectangle(5, 10);
             Parallelogram parallelogram1 = new Parallelogram(3,5,20);
             Trapez trapez1 = new Trapez(10, 9, 8);
             Triangle triangle1 = new Triangle(10, 10);
 
+            //Added figures to list
             figures.Add(square1);
             figures.Add(rectangle1);
             figures.Add(parallelogram1);
